@@ -1,5 +1,5 @@
 <?php if (!is_user_logged_in() && get_theme_option('show_login')=='yes') { ?>
-	<div id="user-popUp" class="user-popUp mfp-with-anim mfp-hide">
+	<!-- <div id="user-popUp" class="user-popUp mfp-with-anim mfp-hide">
 		<div class="sc_tabs">
 			<ul class="loginHeadTab">
 				<li><a href="#loginForm" class="loginFormTab icon"><?php _e('Log In', 'themerex'); ?></a></li>
@@ -63,5 +63,5 @@
 			</div>
 
 		</div>	<!-- /.sc_tabs -->
-	</div>		<!-- /.user-popUp -->
+	</div>		 /.user-popUp -->
 <?php } ?>
